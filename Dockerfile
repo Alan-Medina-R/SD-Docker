@@ -10,6 +10,6 @@ RUN apt-get update && \
 
 WORKDIR /workspace
 
-RUN git clone 
+RUN git clone https://github.com/Alan-Medina-R/SD-Docker.git
 
 CMD ["sleep", "infinity"]
